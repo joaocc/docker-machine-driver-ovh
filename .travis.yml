@@ -9,16 +9,12 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: cb8hpYYUDstAgce5n9KEiXysWMj3ln7MO4BhtFQ90AH54zg/mNJ2aTGZoSkd5h5u5u0jdU4C9kXTcN8VzFpcSR11YInFl2j+P16JtkKbOTqkBuEO+56QZH04c1t4LUjonmPhyyi1Ru1WSbA7ohr13MN/mPbLziJhhytU37tcQxNc3VQ+gGrDsVTjE/E5MzEGzpZtCEU3tA8gFK/FbknI67m80tby0GiZLAuEmt4K8HfAmTC1bwxzg2qFnduRfKhg9HiQaS/xFUGqT3MqSW86k9bS7cWqdPItH8oEMdToUOv1cwpuVsLqjMZXjzZCvnbQ8ynbAPxWUHza9KHtBTXpf8dpAYiv0PXbmU+zA0s0RZg6pyxNrPw+ldfQY6FgeKz69j+O3NfCXSr+qqZTisARcmKzlx5KQpfmm6mzieFUe/n6Yr8FXkZjqZMecMDjdyJGfBG7CdWTQGXvAvfmtpKt7Jw5ZRWqIWvPCHIElAws/HQbac31SflWLlkTaTYKVdImUzfGftgLNjwFRzwDKuJS+wFYN8QMNb8MQYArr0R9RUVinksvCvBI5VPBLCKKGG0KSh+BDa89y5e2CZ4gjC0tllIGdJItYcCrpKiOFsTP+HxKcsysctxYryA9HvTcp8S4Tg7Lp9L2fVhCowBs0d7qAAt7mPJ009nYQ9sOWoEfTh4=
+    secure: SCKcDztI+gN+/jpv5q9GS0IKVKgxCi0BKLpjkGxYTo68qBu4xpo201ZXy7LJOZ1ABuKnutbjVNGM3aHi5AjFngLW1fQemAIzbMDhsZJc7n8Te8FlnWqY2PAdnPHAXcPN8hehObgN3TwNvvOklTZOJHvyauqaJQk3Aez5a3Jcrttkb92fZgWioSQt/moz4FLEwusJJcwSSsLvgVNwxihq4X9/cHCQooWvFUTokuKkxpN+HnI2LaK79HGH3niwDN0bxiiX876cwbO89W2O/r+EBGCHE2t1SBjoYGRMPX+Qgmepba5JkAEcxqdedCQhnAxZvMbFtCgVOf++jFtuU4nYJD9Rmtb08/hrHXu8fKB/xEOkPA0V6RXdtRANzFaEQlas2OYAxzhefaI5Saz2ocxQmXZFSpR7B9mu7fMsD9huVtc+PJF9yxrXkTveEvCB4tZlemY+M8VgOYCVYDoJ3GFIb86q61fm9jx3bZBvEURyk2NSNPO4HDQBWt2xkdRAHv5R12QaPZ0TzwzGg1GOWkMGI9j3EOQ/WFqMlZYD5pe7atfZ8d+I6dVQR1bhRPmwNJFvUmnANCUnyziULJV+hKKj+qjxtDYvCoyS4USJw3B6s5A8vb6fLZNNXvnMdcIiz1KYRx9tqIse8rK7CYHjqDl6IwttFh4sfcRR0AQdhS6lL0E=
   file:
     - bin/docker-machine-driver-ovh-darwin-amd64
     - bin/docker-machine-driver-ovh-linux-amd64
     - bin/docker-machine-driver-ovh-windows-amd64
   on:
-    repo: yadutaf/docker-machine-driver-ovh
+    repo: joaocc/yadutaf--docker-machine-driver-ovh/releases
     tags: true
 
-notifications:
-  email:
-    recipients:
-      - jt+travis-docker-machine@yadutaf.fr
