@@ -15,6 +15,7 @@ deploy:
     - bin/docker-machine-driver-ovh-linux-amd64
     - bin/docker-machine-driver-ovh-windows-amd64
   on:
-    repo: joaocc/yadutaf--docker-machine-driver-ovh/releases
+    repo: joaocc/yadutaf--docker-machine-driver-ovh
+    branch: master
     tags: true
 
